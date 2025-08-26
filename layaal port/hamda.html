@@ -1,0 +1,69 @@
+<!doctype html>
+<p>Simple one‑page site with smooth scroll.</p>
+</div>
+</a>
+</div>
+</section>
+
+
+<section id="about" class="section about">
+<div>
+<h2>About</h2>
+<p class="lead">I specialize in turning complex problems into simple, beautiful interfaces.</p>
+<p>With experience across startups and agencies, I focus on performance, accessibility, and developer experience. I love design systems, web standards, and thoughtful animations.</p>
+<div class="skills" aria-label="Skills">
+<span class="chip">HTML</span>
+<span class="chip">CSS</span>
+<span class="chip">JavaScript</span>
+<span class="chip">Accessibility (a11y)</span>
+<span class="chip">Performance</span>
+<span class="chip">Figma</span>
+</div>
+</div>
+<div>
+<h2>Highlights</h2>
+<ul>
+<li>Shipped design system used by 5+ products</li>
+<li>Optimized a site to 1.2s LCP on mobile 4G</li>
+<li>Mentored junior devs on CSS architecture</li>
+</ul>
+</div>
+</section>
+
+
+<section id="contact" class="section">
+<h2>Contact</h2>
+<p class="lead">Interested in working together? Let’s talk.</p>
+<form class="card" action="mailto:you@example.com" method="post" enctype="text/plain" style="padding:16px; display:grid; gap:12px;">
+<label>
+<span>Name</span><br>
+<input name="name" required placeholder="Jane Doe" style="width:100%; padding:12px; border-radius:10px; border:1px solid color-mix(in oklab, var(--text) 10%, transparent); background: color-mix(in oklab, var(--surface) 75%, transparent); color: var(--text);" />
+</label>
+<label>
+<span>Email</span><br>
+<input type="email" name="email" required placeholder="jane@example.com" style="width:100%; padding:12px; border-radius:10px; border:1px solid color-mix(in oklab, var(--text) 10%, transparent); background: color-mix(in oklab, var(--surface) 75%, transparent); color: var(--text);" />
+</label>
+<label>
+<span>Message</span><br>
+<textarea name="message" rows="5" required placeholder="Hello!" style="width:100%; padding:12px; border-radius:10px; border:1px solid color-mix(in oklab, var(--text) 10%, transparent); background: color-mix(in oklab, var(--surface) 75%, transparent); color: var(--text);"></textarea>
+</label>
+<div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+<button class="btn primary" type="submit">Send</button>
+<a class="btn" href="mailto:you@example.com">Email directly</a>
+</div>
+</form>
+</section>
+</main>
+
+
+<footer class="footer">
+<div class="container">© <span id="y"></span> YOUR NAME • Built with HTML & CSS • Deployed on Vercel</div>
+</footer>
+
+
+<script>
+// Update year
+document.getElementById('y').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
